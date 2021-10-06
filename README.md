@@ -9,13 +9,13 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/phnx47/dapper-repositories/badge)](https://www.codefactor.io/repository/github/phnx47/dapper-repositories)
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-**I see a lot Issues, but I don't have enough time to solve them. Feel free to open Pull Request or ask to add you as Member to support project!**
+**There are a few issues in this project, anyone who can help fix these issues, their help will be appreciated. So, feel free to open Pull Request or ask to add you as Member to support project!**
 
 ## Description
 
 If you like your code to run fast, you probably know about Micro ORMs.
-They are simple and one of their main goals is to be the fastest execution of your SQL sentences in you data repository.
-For some Micro ORM's you need to write your own SQL sentences and this is the case of the most popular Micro ORM [Dapper](https://github.com/StackExchange/dapper-dot-net)
+Theie simple and one of their main goals is to be the fastest execution of your SQL sentences in your data repository.
+For some Micro ORM's you need to write your own SQL sentences and this is the case for the most popular Micro ORM [Dapper](https://github.com/StackExchange/dapper-dot-net)
 
 This tool abstracts the generation of the SQL sentence for CRUD operations based on each C# POCO class "metadata".
 We know there are plugins for both Micro ORMs that implement the execution of these tasks, but that's exactly where this tool is different. The "SQL Generator" is a generic component
@@ -23,7 +23,7 @@ that generates all the CRUD sentences for a POCO class based on its definition a
 
 The original idea was taken from [Yoinbol](https://github.com/Yoinbol/MicroOrm.Pocos.SqlGenerator).
 
-All tests with MSSQL and MySQL has passed, PostgreSQL and SQLite tests are being developed.
+All tests with MSSQL and MySQL have been passed, PostgreSQL and SQLite tests are stil in development.
 
 ## Installation
 
